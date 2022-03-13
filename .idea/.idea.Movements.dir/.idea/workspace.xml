@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9db14cb0-9c55-4692-b203-7e2e5550eece" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/CustomCollider.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/Find.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/FindBy.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/Timer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/ZBigger.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/ZSmaller.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DeltaPositions/CacheDeltaPosition.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DeltaPositions/Composites/ApplyPositionComposite.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DeltaPositions/Composites/DeltaPositionComposite.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DeltaPositions/ConstantDeltaPosition.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DeltaPositions/Decorators/DeltaPositionDecorator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DeltaPositions/Decorators/Implementation/Constant/ConstantApplyDeltaPosition.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DeltaPositions/Decorators/Implementation/Constant/ConstantMultiplyDeltaPosition.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DeltaPositions/Decorators/Implementation/Fluid/FluidApplyDeltaPosition.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DeltaPositions/Decorators/Implementation/Fluid/FluidMultiplyDeltaPosition.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DeltaPositions/Decorators/Implementation/SmoothInterpolateDeltaPosition.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DeltaPositions/DeltaPositionBetweenGameObjects.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DeltaPositions/IDeltaPosition.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DeltaPositions/Predicates/ConstantPredicateDeltaPosition.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DeltaPositions/Predicates/FluidPredicateDeltaPosition.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DeltaPositions/Split/Dimension1/XSplit.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DeltaPositions/Split/Dimension1/YSplit.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DeltaPositions/Split/Dimension1/ZSplit.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DeltaPositions/Split/Dimension2/XYSplit.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DeltaPositions/Split/Dimension2/XZSplit.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DeltaPositions/Split/Dimension2/YZSplit.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DeltaPositions/ValueToDeltaPosition/Dimension1/ToXDeltaPosition.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DeltaPositions/ValueToDeltaPosition/Dimension1/ToYDeltaPosition.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DeltaPositions/ValueToDeltaPosition/Dimension1/ToZDeltaPosition.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DeltaPositions/ValueToDeltaPosition/Dimension2/ToXyDeltaPosition.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DeltaPositions/ValueToDeltaPosition/Dimension2/ToXzDeltaPosition.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DeltaPositions/ValueToDeltaPosition/Dimension2/ToYzDeltaPosition.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DeltaPositions/ValueToDeltaPosition/Dimension3/ToXyzDeltaPosition.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Movements.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Movements.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Position/Decorators/PositionDecorator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Position/Dimension3/DefaultPosition.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Position/IPosition.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Position/Unity/TransformPositionSynchronizer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Properties/AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WrongRealizations/Vector3PhysicPosition.cs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Common/CustomCollider.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DeltaPositions/IDeltaPosition.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Common/Find.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Common/FindBy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Position/Decorators/PositionDecorator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DeltaPositions/Decorators/Implementation/SmoothInterpolateDeltaPosition.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WrongRealizations/Vector3PhysicPosition.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DeltaPositions/Decorators/DeltaPositionDecorator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DeltaPositions/Predicates/FluidPredicateDeltaPosition.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A100808A-BB8F-41CD-BEC3-B8A68145AC95/dd/45283441/HashSet`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DeltaPositions/CacheDeltaPosition.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DeltaPositions/Predicates/ConstantPredicateDeltaPosition.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Position/Decorators/PositionDecorator.cs" />
+        <option value="$PROJECT_DIR$/WrongRealizations/Vector3PhysicPosition.cs" />
+        <option value="$PROJECT_DIR$/WrongRealizations/SmoothInterpolateDeltaPosition.cs" />
+        <option value="$PROJECT_DIR$/DeltaPositions/Decorators/Implementation/SmoothInterpolateDeltaPosition.cs" />
+        <option value="$PROJECT_DIR$/WrongRealizations/FollowForNearest.cs" />
+        <option value="$PROJECT_DIR$/../Predicate/IPredicate.cs" />
+        <option value="$PROJECT_DIR$/DeltaPositions/CacheDeltaPosition.cs" />
+        <option value="$PROJECT_DIR$/DeltaPositions/Predicates/FluidPredicateDeltaPosition.cs" />
+        <option value="$PROJECT_DIR$/DeltaPositions/Predicates/ConstantPredicateDeltaPosition.cs" />
+        <option value="$PROJECT_DIR$/Common/FindBy.cs" />
+        <option value="$PROJECT_DIR$/Common/Find.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="25ebqKrukfzP9Y6UOvSbFgrzF4X" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9db14cb0-9c55-4692-b203-7e2e5550eece" name="Default Changelist" comment="" />
+      <created>1645890688327</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1645890688327</updated>
+      <workItem from="1645890695402" duration="9000" />
+      <workItem from="1646486603102" duration="52000" />
+      <workItem from="1646768687466" duration="22000" />
+      <workItem from="1646940924060" duration="721000" />
+      <workItem from="1647016776788" duration="8977000" />
+      <workItem from="1647183991122" duration="193000" />
+    </task>
+    <servers />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="794" y="221" key="RiderGenerateDialog" timestamp="1646941472332">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="794" y="221" key="RiderGenerateDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1646941472332" />
+    <state x="494" y="330" key="SettingsEditor" timestamp="1647023830006">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="494" y="330" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1647023830006" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1647023822007">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1647023822007" />
+  </component>
+</project>

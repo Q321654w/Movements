@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\PC\AppData\Local\JetBrains\Rider2020.1\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\PC\AppData\Local\JetBrains\Rider2020.1\resharper-host\Local\Transient\ReSharperHost\v201\SolutionCaches\_.19.00" t="ExcludeRecursive" />
+    <e p="C:\Users\PC\RiderProjects\Movements" t="IncludeRecursive">
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="Common" t="Include">
+        <e p="CustomCollider.cs" t="Include" />
+        <e p="Find.cs" t="Include" />
+        <e p="FindBy.cs" t="Include" />
+        <e p="Timer.cs" t="Include" />
+        <e p="ZBigger.cs" t="Include" />
+        <e p="ZSmaller.cs" t="Include" />
+      </e>
+      <e p="DeltaPositions" t="Include">
+        <e p="CacheDeltaPosition.cs" t="Include" />
+        <e p="Composites" t="Include">
+          <e p="ApplyPositionComposite.cs" t="Include" />
+          <e p="DeltaPositionComposite.cs" t="Include" />
+        </e>
+        <e p="ConstantDeltaPosition.cs" t="Include" />
+        <e p="Decorators" t="Include">
+          <e p="DeltaPositionDecorator.cs" t="Include" />
+          <e p="Implementation" t="Include">
+            <e p="Constant" t="Include">
+              <e p="ConstantApplyDeltaPosition.cs" t="Include" />
+              <e p="ConstantMultiplyDeltaPosition.cs" t="Include" />
+            </e>
+            <e p="Fluid" t="Include">
+              <e p="FluidApplyDeltaPosition.cs" t="Include" />
+              <e p="FluidMultiplyDeltaPosition.cs" t="Include" />
+            </e>
+            <e p="SmoothInterpolateDeltaPosition.cs" t="Include" />
+          </e>
+        </e>
+        <e p="DeltaPositionBetweenGameObjects.cs" t="Include" />
+        <e p="IDeltaPosition.cs" t="Include" />
+        <e p="Predicates" t="Include">
+          <e p="ConstantPredicateDeltaPosition.cs" t="Include" />
+          <e p="FluidPredicateDeltaPosition.cs" t="Include" />
+        </e>
+        <e p="Split" t="Include">
+          <e p="Dimension1" t="Include">
+            <e p="XSplit.cs" t="Include" />
+            <e p="YSplit.cs" t="Include" />
+            <e p="ZSplit.cs" t="Include" />
+          </e>
+          <e p="Dimension2" t="Include">
+            <e p="XYSplit.cs" t="Include" />
+            <e p="XZSplit.cs" t="Include" />
+            <e p="YZSplit.cs" t="Include" />
+          </e>
+        </e>
+        <e p="ValueToDeltaPosition" t="Include">
+          <e p="Dimension1" t="Include">
+            <e p="ToXDeltaPosition.cs" t="Include" />
+            <e p="ToYDeltaPosition.cs" t="Include" />
+            <e p="ToZDeltaPosition.cs" t="Include" />
+          </e>
+          <e p="Dimension2" t="Include">
+            <e p="ToXyDeltaPosition.cs" t="Include" />
+            <e p="ToXzDeltaPosition.cs" t="Include" />
+            <e p="ToYzDeltaPosition.cs" t="Include" />
+          </e>
+          <e p="Dimension3" t="Include">
+            <e p="ToXyzDeltaPosition.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="Movements.csproj" t="IncludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Position" t="Include">
+        <e p="Decorators" t="Include">
+          <e p="PositionDecorator.cs" t="Include" />
+        </e>
+        <e p="Dimension3" t="Include">
+          <e p="DefaultPosition.cs" t="Include" />
+        </e>
+        <e p="IPosition.cs" t="Include" />
+        <e p="Unity" t="Include">
+          <e p="TransformPositionSynchronizer.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Properties" t="Include">
+        <e p="AssemblyInfo.cs" t="Include" />
+      </e>
+      <e p="WrongRealizations" t="Include">
+        <e p="Vector3PhysicPosition.cs" t="Include" />
+      </e>
+    </e>
+  </component>
+</project>

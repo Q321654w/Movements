@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+    <PropertyGroup>
+        <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+        <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+        <ProjectGuid>{78F366F0-859A-4DCC-BDE0-63BF662CD8DD}</ProjectGuid>
+        <OutputType>Library</OutputType>
+        <AppDesignerFolder>Properties</AppDesignerFolder>
+        <RootNamespace>Movements</RootNamespace>
+        <AssemblyName>Movements</AssemblyName>
+        <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+        <FileAlignment>512</FileAlignment>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+        <PlatformTarget>AnyCPU</PlatformTarget>
+        <DebugSymbols>true</DebugSymbols>
+        <DebugType>full</DebugType>
+        <Optimize>false</Optimize>
+        <OutputPath>bin\Debug\</OutputPath>
+        <DefineConstants>DEBUG;TRACE</DefineConstants>
+        <ErrorReport>prompt</ErrorReport>
+        <WarningLevel>4</WarningLevel>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+        <PlatformTarget>AnyCPU</PlatformTarget>
+        <DebugType>pdbonly</DebugType>
+        <Optimize>true</Optimize>
+        <OutputPath>bin\Release\</OutputPath>
+        <DefineConstants>TRACE</DefineConstants>
+        <ErrorReport>prompt</ErrorReport>
+        <WarningLevel>4</WarningLevel>
+    </PropertyGroup>
+    <ItemGroup>
+        <Reference Include="Collections, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+          <HintPath>..\Collections\Collections\bin\Debug\Collections.dll</HintPath>
+        </Reference>
+        <Reference Include="Predicates, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+          <HintPath>..\Predicates\bin\Debug\Predicates.dll</HintPath>
+        </Reference>
+        <Reference Include="System" />
+        <Reference Include="System.Core" />
+        <Reference Include="System.Xml" />
+        <Reference Include="UnityEngine">
+            <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.22f1\Editor\Data\Managed\UnityEngine.dll</HintPath>
+        </Reference>
+        <Reference Include="Updates, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+          <HintPath>..\Updates\bin\Debug\Updates.dll</HintPath>
+        </Reference>
+        <Reference Include="Values, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+          <HintPath>..\Updates\bin\Debug\Values.dll</HintPath>
+        </Reference>
+    </ItemGroup>
+    <ItemGroup>
+        <Compile Include="Common\CustomCollider.cs" />
+        <Compile Include="Common\FindBy.cs" />
+        <Compile Include="Common\Timer.cs" />
+        <Compile Include="Common\Find.cs" />
+        <Compile Include="Common\ZBigger.cs" />
+        <Compile Include="Common\ZSmaller.cs" />
+        <Compile Include="DeltaPositions\Composites\ApplyPositionComposite.cs" />
+        <Compile Include="DeltaPositions\Composites\DeltaPositionComposite.cs" />
+        <Compile Include="DeltaPositions\ConstantDeltaPosition.cs" />
+        <Compile Include="DeltaPositions\Decorators\DeltaPositionDecorator.cs" />
+        <Compile Include="DeltaPositions\Decorators\Implementation\Constant\ConstantApplyDeltaPosition.cs" />
+        <Compile Include="DeltaPositions\Decorators\Implementation\Constant\ConstantMultiplyDeltaPosition.cs" />
+        <Compile Include="DeltaPositions\Decorators\Implementation\Fluid\FluidApplyDeltaPosition.cs" />
+        <Compile Include="DeltaPositions\Decorators\Implementation\Fluid\FluidMultiplyDeltaPosition.cs" />
+        <Compile Include="DeltaPositions\CacheDeltaPosition.cs" />
+        <Compile Include="DeltaPositions\Decorators\Implementation\SmoothInterpolateDeltaPosition.cs" />
+        <Compile Include="DeltaPositions\DeltaPositionBetweenGameObjects.cs" />
+        <Compile Include="DeltaPositions\ValueToDeltaPosition\Dimension1\ToXDeltaPosition.cs" />
+        <Compile Include="DeltaPositions\ValueToDeltaPosition\Dimension1\ToYDeltaPosition.cs" />
+        <Compile Include="DeltaPositions\ValueToDeltaPosition\Dimension1\ToZDeltaPosition.cs" />
+        <Compile Include="DeltaPositions\ValueToDeltaPosition\Dimension2\ToXyDeltaPosition.cs" />
+        <Compile Include="DeltaPositions\ValueToDeltaPosition\Dimension2\ToXzDeltaPosition.cs" />
+        <Compile Include="DeltaPositions\ValueToDeltaPosition\Dimension2\ToYzDeltaPosition.cs" />
+        <Compile Include="DeltaPositions\IDeltaPosition.cs" />
+        <Compile Include="DeltaPositions\ValueToDeltaPosition\Dimension3\ToXyzDeltaPosition.cs" />
+        <Compile Include="DeltaPositions\Predicates\ConstantPredicateDeltaPosition.cs" />
+        <Compile Include="DeltaPositions\Predicates\FluidPredicateDeltaPosition.cs" />
+        <Compile Include="DeltaPositions\Split\Dimension1\XSplit.cs" />
+        <Compile Include="DeltaPositions\Split\Dimension1\YSplit.cs" />
+        <Compile Include="DeltaPositions\Split\Dimension1\ZSplit.cs" />
+        <Compile Include="DeltaPositions\Split\Dimension2\XYSplit.cs" />
+        <Compile Include="DeltaPositions\Split\Dimension2\XZSplit.cs" />
+        <Compile Include="DeltaPositions\Split\Dimension2\YZSplit.cs" />
+        <Compile Include="Position\Decorators\PositionDecorator.cs" />
+        <Compile Include="Position\IPosition.cs" />
+        <Compile Include="Position\Dimension3\DefaultPosition.cs" />
+        <Compile Include="Position\Unity\TransformPositionSynchronizer.cs" />
+        <Compile Include="Properties\AssemblyInfo.cs" />
+        <Compile Include="WrongRealizations\Vector3PhysicPosition.cs" />
+    </ItemGroup>
+    <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+    <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+         Other similar extension points exist, see Microsoft.Common.targets.
+    <Target Name="BeforeBuild">
+    </Target>
+    <Target Name="AfterBuild">
+    </Target>
+    -->
+
+</Project>
