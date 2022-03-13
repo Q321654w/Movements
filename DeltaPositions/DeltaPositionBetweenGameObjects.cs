@@ -41,23 +41,23 @@ namespace Movements.DeltaPositions
             return Vector3.zero;
         }
 
-        private Vector3 CalculateDeltaWithNewNearest(T currentNearest)
+        private Vector3 CalculateDeltaWithNewNearest(T currentObject)
         {
-            _previousObject = currentNearest;
+            _previousObject = currentObject;
 
             var lastNearestCurrentPosition = _lastPosition + _objectDelta.Evaluate();
-            var delta = currentNearest.transform.position - lastNearestCurrentPosition;
+            var delta = currentObject.transform.position - lastNearestCurrentPosition;
             _lastPosition = _previousObject.transform.position;
 
             return delta;
         }
 
-        private Vector3 CalculateDeltaBetweenLastAndCurrentObjects(T nearestObject)
+        private Vector3 CalculateDeltaBetweenLastAndCurrentObjects(T currentObject)
         {
-            var currentPosition = nearestObject.transform.position;
+            var currentPosition = currentObject.transform.position;
 
             var delta = currentPosition - _previousObject.transform.position;
-            _previousObject = nearestObject;
+            _previousObject = currentObject;
 
             return delta;
         }

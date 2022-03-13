@@ -56,6 +56,7 @@
         <Compile Include="Common\FindBy.cs" />
         <Compile Include="Common\Timer.cs" />
         <Compile Include="Common\Find.cs" />
+        <Compile Include="Common\TimerPredicate.cs" />
         <Compile Include="Common\ZBigger.cs" />
         <Compile Include="Common\ZSmaller.cs" />
         <Compile Include="DeltaPositions\Composites\ApplyPositionComposite.cs" />
@@ -66,7 +67,7 @@
         <Compile Include="DeltaPositions\Decorators\Implementation\Constant\ConstantMultiplyDeltaPosition.cs" />
         <Compile Include="DeltaPositions\Decorators\Implementation\Fluid\FluidApplyDeltaPosition.cs" />
         <Compile Include="DeltaPositions\Decorators\Implementation\Fluid\FluidMultiplyDeltaPosition.cs" />
-        <Compile Include="DeltaPositions\CacheDeltaPosition.cs" />
+        <Compile Include="DeltaPositions\CacheDeltaPositionWhile.cs" />
         <Compile Include="DeltaPositions\Decorators\Implementation\SmoothInterpolateDeltaPosition.cs" />
         <Compile Include="DeltaPositions\DeltaPositionBetweenGameObjects.cs" />
         <Compile Include="DeltaPositions\ValueToDeltaPosition\Dimension1\ToXDeltaPosition.cs" />

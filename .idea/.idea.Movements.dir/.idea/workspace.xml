@@ -11,48 +11,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9db14cb0-9c55-4692-b203-7e2e5550eece" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/CustomCollider.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/Find.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/FindBy.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/Timer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/ZBigger.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/ZSmaller.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeltaPositions/CacheDeltaPosition.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeltaPositions/Composites/ApplyPositionComposite.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeltaPositions/Composites/DeltaPositionComposite.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeltaPositions/ConstantDeltaPosition.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeltaPositions/Decorators/DeltaPositionDecorator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeltaPositions/Decorators/Implementation/Constant/ConstantApplyDeltaPosition.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeltaPositions/Decorators/Implementation/Constant/ConstantMultiplyDeltaPosition.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeltaPositions/Decorators/Implementation/Fluid/FluidApplyDeltaPosition.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeltaPositions/Decorators/Implementation/Fluid/FluidMultiplyDeltaPosition.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeltaPositions/Decorators/Implementation/SmoothInterpolateDeltaPosition.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeltaPositions/DeltaPositionBetweenGameObjects.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeltaPositions/IDeltaPosition.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeltaPositions/Predicates/ConstantPredicateDeltaPosition.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeltaPositions/Predicates/FluidPredicateDeltaPosition.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeltaPositions/Split/Dimension1/XSplit.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeltaPositions/Split/Dimension1/YSplit.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeltaPositions/Split/Dimension1/ZSplit.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeltaPositions/Split/Dimension2/XYSplit.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeltaPositions/Split/Dimension2/XZSplit.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeltaPositions/Split/Dimension2/YZSplit.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeltaPositions/ValueToDeltaPosition/Dimension1/ToXDeltaPosition.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeltaPositions/ValueToDeltaPosition/Dimension1/ToYDeltaPosition.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeltaPositions/ValueToDeltaPosition/Dimension1/ToZDeltaPosition.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeltaPositions/ValueToDeltaPosition/Dimension2/ToXyDeltaPosition.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeltaPositions/ValueToDeltaPosition/Dimension2/ToXzDeltaPosition.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeltaPositions/ValueToDeltaPosition/Dimension2/ToYzDeltaPosition.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeltaPositions/ValueToDeltaPosition/Dimension3/ToXyzDeltaPosition.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Movements.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Movements.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Position/Decorators/PositionDecorator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Position/Dimension3/DefaultPosition.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Position/IPosition.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Position/Unity/TransformPositionSynchronizer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Properties/AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WrongRealizations/Vector3PhysicPosition.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/TimerPredicate.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Movements.dir/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Movements.dir/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Movements.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Movements.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/Find.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Find.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/FindBy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Common/FindBy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/ZBigger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Common/ZBigger.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/ZSmaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Common/ZSmaller.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DeltaPositions/CacheDeltaPosition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DeltaPositions/CacheDeltaPositionWhile.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DeltaPositions/DeltaPositionBetweenGameObjects.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DeltaPositions/DeltaPositionBetweenGameObjects.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DeltaPositions/Predicates/ConstantPredicateDeltaPosition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DeltaPositions/Predicates/ConstantPredicateDeltaPosition.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DeltaPositions/Predicates/FluidPredicateDeltaPosition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DeltaPositions/Predicates/FluidPredicateDeltaPosition.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Movements.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Movements.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,17 +33,32 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Common/CustomCollider.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/DeltaPositions/IDeltaPosition.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Common/Find.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Common/FindBy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DeltaPositions/Decorators/Implementation/Constant/ConstantApplyDeltaPosition.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DeltaPositions/Decorators/Implementation/Fluid/FluidApplyDeltaPosition.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Position/Decorators/PositionDecorator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DeltaPositions/Split/Dimension1/XSplit.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Common/TimerPredicate.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DeltaPositions/Decorators/Implementation/SmoothInterpolateDeltaPosition.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WrongRealizations/Vector3PhysicPosition.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Common/Timer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DeltaPositions/DeltaPositionBetweenGameObjects.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Common/CustomCollider.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DeltaPositions/ValueToDeltaPosition/Dimension1/ToXDeltaPosition.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Common/FindBy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Position/Unity/TransformPositionSynchronizer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DeltaPositions/Composites/ApplyPositionComposite.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DeltaPositions/CacheDeltaPositionWhile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Position/Dimension3/DefaultPosition.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DeltaPositions/Composites/DeltaPositionComposite.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DeltaPositions/Decorators/DeltaPositionDecorator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DeltaPositions/Decorators/Implementation/Fluid/FluidMultiplyDeltaPosition.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DeltaPositions/ConstantDeltaPosition.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DeltaPositions/Decorators/Implementation/Constant/ConstantMultiplyDeltaPosition.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Common/ZBigger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DeltaPositions/IDeltaPosition.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Common/Find.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DeltaPositions/Predicates/FluidPredicateDeltaPosition.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A100808A-BB8F-41CD-BEC3-B8A68145AC95/dd/45283441/HashSet`1.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/DeltaPositions/CacheDeltaPosition.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DeltaPositions/Predicates/ConstantPredicateDeltaPosition.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -90,6 +75,10 @@
         <option value="$PROJECT_DIR$/DeltaPositions/Predicates/ConstantPredicateDeltaPosition.cs" />
         <option value="$PROJECT_DIR$/Common/FindBy.cs" />
         <option value="$PROJECT_DIR$/Common/Find.cs" />
+        <option value="$PROJECT_DIR$/Common/ZBigger.cs" />
+        <option value="$PROJECT_DIR$/DeltaPositions/DeltaPositionBetweenGameObjects.cs" />
+        <option value="$PROJECT_DIR$/DeltaPositions/CacheDeltaPositionWhile.cs" />
+        <option value="$PROJECT_DIR$/Common/TimerPredicate.cs" />
       </list>
     </option>
   </component>
@@ -134,6 +123,7 @@
       <workItem from="1646940924060" duration="721000" />
       <workItem from="1647016776788" duration="8977000" />
       <workItem from="1647183991122" duration="193000" />
+      <workItem from="1647189330872" duration="2046000" />
     </task>
     <servers />
   </component>
@@ -155,10 +145,10 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="794" y="221" key="RiderGenerateDialog" timestamp="1646941472332">
+    <state x="794" y="221" key="RiderGenerateDialog" timestamp="1647190946220">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="794" y="221" key="RiderGenerateDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1646941472332" />
+    <state x="794" y="221" key="RiderGenerateDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1647190946220" />
     <state x="494" y="330" key="SettingsEditor" timestamp="1647023830006">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

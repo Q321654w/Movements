@@ -1,5 +1,4 @@
-﻿using Predicate;
-using Predicate.WithParameters;
+﻿using Predicate.WithParameters;
 using UnityEngine;
 
 namespace Movements.Common

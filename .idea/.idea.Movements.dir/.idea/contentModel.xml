@@ -10,11 +10,12 @@
         <e p="Find.cs" t="Include" />
         <e p="FindBy.cs" t="Include" />
         <e p="Timer.cs" t="Include" />
+        <e p="TimerPredicate.cs" t="Include" />
         <e p="ZBigger.cs" t="Include" />
         <e p="ZSmaller.cs" t="Include" />
       </e>
       <e p="DeltaPositions" t="Include">
-        <e p="CacheDeltaPosition.cs" t="Include" />
+        <e p="CacheDeltaPositionWhile.cs" t="Include" />
         <e p="Composites" t="Include">
           <e p="ApplyPositionComposite.cs" t="Include" />
           <e p="DeltaPositionComposite.cs" t="Include" />
