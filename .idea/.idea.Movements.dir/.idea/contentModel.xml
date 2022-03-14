@@ -87,9 +87,7 @@
       <e p="Properties" t="Include">
         <e p="AssemblyInfo.cs" t="Include" />
       </e>
-      <e p="WrongRealizations" t="Include">
-        <e p="Vector3PhysicPosition.cs" t="Include" />
-      </e>
+      <e p="WrongRealizations" t="Include" />
     </e>
   </component>
 </project>

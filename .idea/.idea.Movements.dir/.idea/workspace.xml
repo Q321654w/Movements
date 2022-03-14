@@ -11,18 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9db14cb0-9c55-4692-b203-7e2e5550eece" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Common/TimerPredicate.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Movements.dir/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Movements.dir/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Movements.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Movements.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/Find.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Find.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/FindBy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Common/FindBy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/ZBigger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Common/ZBigger.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/ZSmaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Common/ZSmaller.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DeltaPositions/CacheDeltaPosition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DeltaPositions/CacheDeltaPositionWhile.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DeltaPositions/DeltaPositionBetweenGameObjects.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DeltaPositions/DeltaPositionBetweenGameObjects.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DeltaPositions/Predicates/ConstantPredicateDeltaPosition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DeltaPositions/Predicates/ConstantPredicateDeltaPosition.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DeltaPositions/Predicates/FluidPredicateDeltaPosition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DeltaPositions/Predicates/FluidPredicateDeltaPosition.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Movements.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Movements.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WrongRealizations/Vector3PhysicPosition.cs" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +31,6 @@
     <setting file="file://$PROJECT_DIR$/DeltaPositions/Split/Dimension1/XSplit.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Common/TimerPredicate.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DeltaPositions/Decorators/Implementation/SmoothInterpolateDeltaPosition.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WrongRealizations/Vector3PhysicPosition.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Common/Timer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DeltaPositions/DeltaPositionBetweenGameObjects.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Common/CustomCollider.cs" root0="FORCE_HIGHLIGHTING" />
@@ -76,9 +67,10 @@
         <option value="$PROJECT_DIR$/Common/FindBy.cs" />
         <option value="$PROJECT_DIR$/Common/Find.cs" />
         <option value="$PROJECT_DIR$/Common/ZBigger.cs" />
-        <option value="$PROJECT_DIR$/DeltaPositions/DeltaPositionBetweenGameObjects.cs" />
         <option value="$PROJECT_DIR$/DeltaPositions/CacheDeltaPositionWhile.cs" />
         <option value="$PROJECT_DIR$/Common/TimerPredicate.cs" />
+        <option value="$PROJECT_DIR$/Position/Unity/TransformPositionSynchronizer.cs" />
+        <option value="$PROJECT_DIR$/DeltaPositions/DeltaPositionBetweenGameObjects.cs" />
       </list>
     </option>
   </component>
@@ -124,6 +116,7 @@
       <workItem from="1647016776788" duration="8977000" />
       <workItem from="1647183991122" duration="193000" />
       <workItem from="1647189330872" duration="2046000" />
+      <workItem from="1647282285695" duration="2010000" />
     </task>
     <servers />
   </component>

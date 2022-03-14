@@ -1,63 +1,54 @@
 ﻿using Collections;
+using Collections.Predicates.Common;
+using Movements.DeltaPositions.Composites;
 using UnityEngine;
 using Values;
 
 namespace Movements.DeltaPositions
 {
-    public class DeltaPositionBetweenGameObjects<T> : IDeltaPosition where T : MonoBehaviour
+    public class DeltaPositionBetweenGameObjects<T> : DeltaPositionComposite
+        where T : IDeltaPosition, IEqualsWithParameter<T>
     {
-        private readonly IDeltaPosition _objectDelta;
-
-        private readonly IValue<Result<T>> _value;
+        private readonly IValue<Result<T>> _collection;
 
         private Vector3 _lastPosition;
         private T _previousObject;
 
-        public DeltaPositionBetweenGameObjects(IDeltaPosition objectDelta, T previousObject, IValue<Result<T>> value)
+        public DeltaPositionBetweenGameObjects(IDeltaPosition[] childDeltas, IValue<Result<T>> collection) : base(childDeltas)
         {
-            _objectDelta = objectDelta;
-
-            _previousObject = previousObject;
-            _value = value;
-            _lastPosition = _previousObject.transform.position;
+            _collection = collection;
+           
+            _lastPosition = _previousObject.Evaluate();
         }
 
-        public Vector3 Evaluate()
+        public override Vector3 Evaluate()
         {
-            var result = _value.Evaluate();
+            var findResult = _collection.Evaluate();
 
-            if (!result.Success)
+            if (!findResult.Success)
                 return Vector3.zero;
 
-            var currentNearest = result.Content;
+            var currentObject = findResult.Content;
+            var value = UpdateValue(currentObject);
 
-            if (_previousObject == null)
-                return CalculateDeltaWithNewNearest(currentNearest);
+            _previousObject = currentObject;
+            _lastPosition = _previousObject.Evaluate();
 
-            if (_previousObject != currentNearest)
-                return CalculateDeltaBetweenLastAndCurrentObjects(currentNearest);
-
-            _lastPosition = _previousObject.transform.position;
-            return Vector3.zero;
+            return value;
         }
 
-        private Vector3 CalculateDeltaWithNewNearest(T currentObject)
+        private Vector3 UpdateValue(T currentObject)
         {
-            _previousObject = currentObject;
-
-            var lastNearestCurrentPosition = _lastPosition + _objectDelta.Evaluate();
-            var delta = currentObject.transform.position - lastNearestCurrentPosition;
-            _lastPosition = _previousObject.transform.position;
-
-            return delta;
+            if (_previousObject.Equals(currentObject))
+                return Vector3.zero;
+            
+            return CalculateDeltaBetweenLastAndCurrentObjects(currentObject);
         }
 
         private Vector3 CalculateDeltaBetweenLastAndCurrentObjects(T currentObject)
         {
-            var currentPosition = currentObject.transform.position;
-
-            var delta = currentPosition - _previousObject.transform.position;
-            _previousObject = currentObject;
+            var currentPosition = currentObject.Evaluate();
+            var delta = currentPosition - _previousObject.Evaluate();
 
             return delta;
         }
