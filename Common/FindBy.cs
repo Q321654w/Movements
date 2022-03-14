@@ -1,5 +1,6 @@
 ﻿using Collections;
-using Predicate.WithParameters;
+using Collections.Defaults;
+using Collections.Predicates.WithParameters;
 using UnityEngine;
 
 namespace Movements.Common
@@ -19,7 +20,7 @@ namespace Movements.Common
         {
             var defaultValue = _default.Evaluate();
             var obj = defaultValue;
-            var count = _content.Count().Evaluate();
+            var count = _content.Count();
             
             for (int i = 0; i < count; i++)
             {

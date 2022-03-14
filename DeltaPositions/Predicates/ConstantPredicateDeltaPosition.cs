@@ -1,4 +1,4 @@
-﻿using Predicate.WithOutParameters;
+﻿using Collections.Predicates.WithOutParameters;
 using UnityEngine;
 
 namespace Movements.DeltaPositions.Predicates

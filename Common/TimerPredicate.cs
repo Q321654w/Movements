@@ -1,4 +1,4 @@
-﻿using Predicate.WithOutParameters;
+﻿using Collections.Predicates.WithOutParameters;
 using Values;
 
 namespace Movements.Common

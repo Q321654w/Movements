@@ -1,5 +1,5 @@
-﻿using Movements.DeltaPositions.Decorators;
-using Predicate.WithOutParameters;
+﻿using Collections.Predicates.WithOutParameters;
+using Movements.DeltaPositions.Decorators;
 using UnityEngine;
 using Update;
 
