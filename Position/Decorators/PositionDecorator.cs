@@ -12,5 +12,6 @@ namespace Movements.Position.Decorators
         }
 
         public abstract Vector3 Coordinates();
+        public abstract bool Equals(IPosition source);
     }
 }

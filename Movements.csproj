@@ -66,7 +66,7 @@
         <Compile Include="DeltaPositions\Decorators\Implementation\Fluid\FluidMultiplyDeltaPosition.cs" />
         <Compile Include="DeltaPositions\CacheDeltaPositionWhile.cs" />
         <Compile Include="DeltaPositions\Decorators\Implementation\SmoothInterpolateDeltaPosition.cs" />
-        <Compile Include="DeltaPositions\DeltaPositionBetweenGameObjects.cs" />
+        <Compile Include="DeltaPositions\DeltaPositionBetweenPositions.cs" />
         <Compile Include="DeltaPositions\ValueToDeltaPosition\Dimension1\ToXDeltaPosition.cs" />
         <Compile Include="DeltaPositions\ValueToDeltaPosition\Dimension1\ToYDeltaPosition.cs" />
         <Compile Include="DeltaPositions\ValueToDeltaPosition\Dimension1\ToZDeltaPosition.cs" />
@@ -83,6 +83,7 @@
         <Compile Include="DeltaPositions\Split\Dimension2\XYSplit.cs" />
         <Compile Include="DeltaPositions\Split\Dimension2\XZSplit.cs" />
         <Compile Include="DeltaPositions\Split\Dimension2\YZSplit.cs" />
+        <Compile Include="Position\Composites\PositionComposite.cs" />
         <Compile Include="Position\Decorators\PositionDecorator.cs" />
         <Compile Include="Position\IPosition.cs" />
         <Compile Include="Position\Dimension3\DefaultPosition.cs" />

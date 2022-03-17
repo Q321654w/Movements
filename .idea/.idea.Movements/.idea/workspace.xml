@@ -1,16 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="2199da0e-4d11-46c0-8a91-5170bf77750d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Position/Composites/PositionComposite.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Movements/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Movements/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Movements/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Movements/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Common/Find.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Find.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Common/FindBy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Common/FindBy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/TimerPredicate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Common/TimerPredicate.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Common/ZBigger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Common/ZBigger.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Common/ZSmaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Common/ZSmaller.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DeltaPositions/CacheDeltaPositionWhile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DeltaPositions/CacheDeltaPositionWhile.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DeltaPositions/Predicates/ConstantPredicateDeltaPosition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DeltaPositions/Predicates/ConstantPredicateDeltaPosition.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DeltaPositions/Predicates/FluidPredicateDeltaPosition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DeltaPositions/Predicates/FluidPredicateDeltaPosition.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DeltaPositions/DeltaPositionBetweenGameObjects.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DeltaPositions/DeltaPositionBetweenPositions.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Movements.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Movements.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Position/Decorators/PositionDecorator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Position/Decorators/PositionDecorator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Position/Dimension3/DefaultPosition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Position/Dimension3/DefaultPosition.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Position/IPosition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Position/IPosition.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Position/Unity/TransformPositionSynchronizer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Position/Unity/TransformPositionSynchronizer.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,16 +43,34 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Position/Dimension3/DefaultPosition.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Position/Decorators/PositionDecorator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Common/TimerPredicate.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DeltaPositions/Composites/DeltaPositionComposite.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Position/Composites/PositionComposite.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Common/ZBigger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DeltaPositions/DeltaPositionBetweenPositions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Common/ZSmaller.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Common/Find.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Common/FindBy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Common/TimerPredicate.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Position/IPosition.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Position/Unity/TransformPositionSynchronizer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DeltaPositions/CacheDeltaPositionWhile.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Common/TimerPredicate.cs" />
-        <option value="$PROJECT_DIR$/Common/Find.cs" />
+        <option value="$PROJECT_DIR$/DeltaPositions/DeltaPositionBetweenPositions.cs" />
         <option value="$PROJECT_DIR$/Common/FindBy.cs" />
+        <option value="$PROJECT_DIR$/Common/Find.cs" />
+        <option value="$PROJECT_DIR$/Common/ZBigger.cs" />
+        <option value="$PROJECT_DIR$/Common/ZSmaller.cs" />
+        <option value="$PROJECT_DIR$/Position/IPosition.cs" />
+        <option value="$PROJECT_DIR$/Position/Decorators/PositionDecorator.cs" />
+        <option value="$PROJECT_DIR$/Position/Dimension3/DefaultPosition.cs" />
+        <option value="$PROJECT_DIR$/Position/Composites/PositionComposite.cs" />
+        <option value="$PROJECT_DIR$/Position/Unity/TransformPositionSynchronizer.cs" />
       </list>
     </option>
   </component>
@@ -69,11 +109,28 @@
       <option name="presentableId" value="Default" />
       <updated>1647281971280</updated>
       <workItem from="1647281975791" duration="211000" />
+      <workItem from="1647284679573" duration="391000" />
+      <workItem from="1647285787360" duration="63000" />
+      <workItem from="1647371278247" duration="5000" />
+      <workItem from="1647371955172" duration="1063000" />
+      <workItem from="1647445128168" duration="1678000" />
     </task>
     <servers />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>

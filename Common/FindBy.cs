@@ -1,11 +1,11 @@
 ﻿using Collections;
 using Collections.Defaults;
+using Collections.Predicates.Common;
 using Collections.Predicates.WithParameters;
-using UnityEngine;
 
 namespace Movements.Common
 {
-    public class FindBy<T> where T : MonoBehaviour
+    public class FindBy<T> where T : IEqualsWithParameter<T>
     {
         private readonly IIterate<T> _content;
         private readonly IDefault<T> _default;
@@ -21,7 +21,7 @@ namespace Movements.Common
             var defaultValue = _default.Evaluate();
             var obj = defaultValue;
             var count = _content.Count();
-            
+
             for (int i = 0; i < count; i++)
             {
                 var currentObj = _content.Element(i);
@@ -32,7 +32,7 @@ namespace Movements.Common
                 obj = currentObj;
             }
 
-            return obj != defaultValue ? new Result<T>(true, obj) : new Result<T>(false, obj);
+            return obj.Equals(defaultValue) ? new Result<T>(false, obj) : new Result<T>(true, obj);
         }
     }
 }

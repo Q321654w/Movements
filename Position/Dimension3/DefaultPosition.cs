@@ -1,4 +1,5 @@
-﻿using Movements.DeltaPositions;
+﻿using Collections.Predicates.Common;
+using Movements.DeltaPositions;
 using UnityEngine;
 
 namespace Movements.Position.Dimension3
@@ -24,6 +25,11 @@ namespace Movements.Position.Dimension3
             _vector += delta;
             
             return _vector;
+        }
+
+        public bool Equals(IPosition source)
+        {
+            return source.Coordinates() == _vector;
         }
     }
 }

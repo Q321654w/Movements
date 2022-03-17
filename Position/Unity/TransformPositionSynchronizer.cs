@@ -18,6 +18,11 @@ namespace Movements.Position.Unity
             return ChildPosition.Coordinates();
         }
 
+        public override bool Equals(IPosition source)
+        {
+            return ChildPosition.Coordinates() == source.Coordinates();
+        }
+
         private void Synchronize()
         {
             _transform.position = ChildPosition.Coordinates();

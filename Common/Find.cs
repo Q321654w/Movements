@@ -1,12 +1,13 @@
 ﻿using Collections;
 using Collections.Defaults;
+using Collections.Predicates.Common;
 using Collections.Predicates.WithParameters;
 using UnityEngine;
 using Values;
 
 namespace Movements.Common
 {
-    public class Find<T> : IValue<Result<T>> where T : MonoBehaviour
+    public class Find<T> : IValue<Result<T>> where T : IEqualsWithParameter<T>
     {
         private readonly IIterate<T> _content;
         private readonly IPredicateWithParameters<T, T> _predicate;
@@ -35,7 +36,7 @@ namespace Movements.Common
                 obj = currentObj;
             }
 
-            return obj != defaultValue ? new Result<T>(true, obj) : new Result<T>(false, obj);
+            return obj.Equals(defaultValue) ? new Result<T>(false, obj) : new Result<T>(true, obj);
         }
     }
 }

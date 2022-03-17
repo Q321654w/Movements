@@ -1,27 +1,24 @@
 ﻿using Collections;
 using Collections.Predicates.Common;
-using Movements.DeltaPositions.Composites;
+using Movements.Position;
 using UnityEngine;
 using Values;
 
 namespace Movements.DeltaPositions
 {
-    public class DeltaPositionBetweenGameObjects<T> : DeltaPositionComposite
-        where T : IDeltaPosition, IEqualsWithParameter<T>
+    public class DeltaPositionBetweenPositions<T> : IDeltaPosition
+        where T : IPosition, IEqualsWithParameter<T>
     {
         private readonly IValue<Result<T>> _collection;
-
-        private Vector3 _lastPosition;
+        
         private T _previousObject;
 
-        public DeltaPositionBetweenGameObjects(IDeltaPosition[] childDeltas, IValue<Result<T>> collection) : base(childDeltas)
+        public DeltaPositionBetweenPositions(IValue<Result<T>> collection)
         {
             _collection = collection;
-           
-            _lastPosition = _previousObject.Evaluate();
         }
 
-        public override Vector3 Evaluate()
+        public Vector3 Evaluate()
         {
             var findResult = _collection.Evaluate();
 
@@ -32,7 +29,6 @@ namespace Movements.DeltaPositions
             var value = UpdateValue(currentObject);
 
             _previousObject = currentObject;
-            _lastPosition = _previousObject.Evaluate();
 
             return value;
         }
@@ -41,14 +37,14 @@ namespace Movements.DeltaPositions
         {
             if (_previousObject.Equals(currentObject))
                 return Vector3.zero;
-            
+
             return CalculateDeltaBetweenLastAndCurrentObjects(currentObject);
         }
 
         private Vector3 CalculateDeltaBetweenLastAndCurrentObjects(T currentObject)
         {
-            var currentPosition = currentObject.Evaluate();
-            var delta = currentPosition - _previousObject.Evaluate();
+            var currentPosition = currentObject.Coordinates();
+            var delta = currentPosition - _previousObject.Coordinates();
 
             return delta;
         }
